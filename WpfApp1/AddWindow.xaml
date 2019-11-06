@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp1.AddWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Додати елемент" Height="150" Width="350">
+    <Grid>
+        <TextBlock Text="Введіть ключ елемента" Margin="20,5,20,39.4"/>
+        <TextBox Name="Tb1" Height="20" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0"></TextBox>
+        <TextBlock Text="Введіть значення елемента" Margin="20,48,-20,-48.6"/>
+        <TextBox Name="Tb2" Height="20" Width="150" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,65,0,0"></TextBox>
+        <Button Name="AddButton" Height="20" Width="100" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="203,41,0,0" Content="Додати елемент" Click="AddButton_Click"></Button>
+    </Grid>
+</Window>
