@@ -60,6 +60,11 @@ namespace WpfApp1
             return false;
         }
 
+        void  TestAdd()
+        {
+
+        }
+
         private string GetRandomText()
         {
             return System.IO.Path.GetFileNameWithoutExtension(System.IO.Path.GetRandomFileName());
